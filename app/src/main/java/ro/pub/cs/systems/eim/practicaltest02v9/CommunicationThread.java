@@ -68,7 +68,7 @@ public class CommunicationThread extends Thread {
                     if (all.getString(i).length() <= nr) {
                         finalResult.append(all.getString(i)).append(", ");
                     }
-                    Log.i("[PracticalTest02]", "[COMMUNICATION THREAD] A 3-a sugestie: " + all.getString(i));
+                    Log.i("[PracticalTest02]", "[COMMUNICATION THREAD] Anagrame: " + all.getString(i));
                 }
 
                 result = finalResult.toString();

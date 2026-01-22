@@ -21,8 +21,6 @@ public class ServerThread extends Thread {
 
     private String data;
 
-    private HashMap<String, Long> clientTimers = new HashMap<>();
-
     public ServerThread(int port) {
         try {
             this.serverSocket = new ServerSocket(port);
